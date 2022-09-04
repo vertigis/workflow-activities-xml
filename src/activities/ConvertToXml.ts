@@ -23,6 +23,7 @@ interface ConvertToXmlOutputs {
 
 /**
  * @displayName Convert To XML
+ * @defaultName xml
  * @category XML
  * @description Converts an object to XML text.
  * @clientOnly
