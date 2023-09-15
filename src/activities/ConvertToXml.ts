@@ -27,7 +27,7 @@ interface ConvertToXmlOutputs {
  * @category XML
  * @description Converts an object to XML text.
  * @clientOnly
- * @unsupportedApps GMV
+ * @supportedApps EXB, GVH, GWV, WAB
  */
 export default class ConvertToXmlActivity implements IActivityHandler {
     execute(inputs: ConvertToXmlInputs): ConvertToXmlOutputs {
