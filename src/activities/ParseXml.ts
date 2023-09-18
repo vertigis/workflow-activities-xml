@@ -22,7 +22,7 @@ interface ParseXmlOutputs {
  * @category XML
  * @description Converts XML text into an object.
  * @clientOnly
- * @unsupportedApps GMV
+ * @supportedApps EXB, GVH, GWV, WAB
  */
 export default class ParseXml implements IActivityHandler {
     execute(inputs: ParseXmlInputs): ParseXmlOutputs {
