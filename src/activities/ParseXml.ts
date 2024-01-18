@@ -1,4 +1,4 @@
-import type { IActivityHandler } from "@geocortex/workflow/runtime";
+import type { IActivityHandler } from "@vertigis/workflow";
 import { XMLParser } from "fast-xml-parser";
 
 interface ParseXmlInputs {
